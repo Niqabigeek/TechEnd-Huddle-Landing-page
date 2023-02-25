@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.hero-container{
+    background-image: url(img/bg-hero-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%) ;
+    height: 90vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 32px 0 0 0;
+    margin: auto;
+}
+
+#brand-logo{
+    width: 150px;
+   
+}
+
+.header-btn{
+    padding: 10px 40px;
+    background-color: #ffffff;
+    color: hsl(192, 100%, 9%);
+    border-radius: 100px;
+    border: 1px solid #b1acac36;
+    box-shadow: 1px 1px 10px hsla(213, 11%, 81%, 0.255);
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.header-btn:active{
+    cursor: pointer;
+    color: hsl(208, 11%, 55%);
+}
+
+.header-btn:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px hsla(209, 11%, 55%, 0.291);
+}
+
+.heading{
+    line-height: 150%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+}
+
+#mockup{
+    width: 500px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin:  auto;
+}
+
+
+.left{
+    margin-top: 5rem;
+}
+
+.right{
+    margin-top: 5rem;
+}
+
+.sub-heading{
+    padding: 2rem 0 2rem 0;
+    font-size: 16px;
+    color: hsl(192, 100%, 9%);
+  
+}
+
+.main-btn{
+    padding: 12px 48px;
+    border-radius: 100px;
+    font-weight: 700;
+    border: none;
+    color: #ffffffff;
+    font-family: 'Open Sans';
+    background-color: hsl(322, 100%, 66%);
+}
+
+.main-btn:active{
+    cursor: pointer;
+    color: hsl(193, 100%, 96%);
+}
+
+.main-btn:hover{
+    box-shadow: 1px 1px 2px hsl(208, 11%, 55%);
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px  hsla(210, 2%, 64%, 0.366);
+    border: 1px solid hsla(210, 2%, 64%, 0.222);
+}
+
+.content-container2{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    padding: 2rem 2rem 2rem 5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px  hsla(210, 2%, 64%, 0.366);
+    border: 1px solid hsla(209, 11%, 55%, 0.176);
+}
+
+
+.content-container3{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 8rem; 
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px  hsla(210, 2%, 64%, 0.366);
+    border: 1px solid hsla(209, 11%, 55%, 0.176);
+}
+
+.content-container4{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #ffffff;
+    margin-bottom: -9rem;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px  hsla(210, 2%, 64%, 0.366);
+    border: 1px solid hsla(209, 11%, 55%, 0.176);
+}
+
+
+.bottom-div{
+    margin-bottom: 1rem;
+}
+
+
+.div-copy .div-heading{
+   
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#div-img{
+    width: 300px;
+}
+
+.div-paragraph{
+    margin-top: 1rem;
+    color: hsl(208, 11%, 55%);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans';
+
+}
+
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    height: 70vh;
+}
+
+#footer-img{
+    
+}
